@@ -10,3 +10,5 @@ As part of the Harvard CS50x Week 3 coursework, I contributed significantly to t
 - Participated in writing the `eliminate` function, allowing the program to eliminate the candidate(s) in last place during each runoff round.
 
 Throughout the development process, I leveraged my C programming skills and applied algorithmic techniques to ensure the program's accuracy and efficiency in simulating runoff elections.
+
+Problem set Description can be found at: https://cs50.harvard.edu/x/2023/psets/3/runoff/
