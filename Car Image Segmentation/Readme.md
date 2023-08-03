@@ -26,25 +26,35 @@ After training the model, the best weights are saved. The trained model is then 
 Similarly, a random set of 50 sequential test images with their corresponding predicted masks is displayed to visualize the prediction results for the test set.
 
 ## Results
-Training Results Comparison: 
- ![image](https://github.com/irfanali1995/Masters_Robotics-/assets/75564524/64fbdd28-3ab4-4be2-bf19-58180c5db16e)
+ 
+Training Results Comparison:
+
+
+  ![image](https://github.com/irfanali1995/Masters_Robotics-/assets/75564524/64fbdd28-3ab4-4be2-bf19-58180c5db16e)
+
+
 
 Test Results:
- ![image](https://github.com/irfanali1995/Masters_Robotics-/assets/75564524/16e60b17-1ef5-4b07-9176-b6de1f87496e)
+
+
+
+  ![image](https://github.com/irfanali1995/Masters_Robotics-/assets/75564524/16e60b17-1ef5-4b07-9176-b6de1f87496e)
 
 ## Pros and Cons of U-Net for using Image Segmentation of Car
-   Pros: 
-      - Flexible and can be used for any rational image masking task
-      - High accuracy (given proper training, dataset, and training time) 
-      - Succeeds to achieve very good performances on different biomedical segmentation applications
+   Pros:
+   * Flexible and can be used for any rational image masking task
+   * High accuracy (given proper training, dataset, and training time)
+   * Succeeds to achieve very good performances on different biomedical segmentation applications
+
    Cons:
-      - Larger images need high GPU memory
-      - Takes significant amount of time to train 
-      - Pre-trained models not widely available
+   * Larger images need high GPU memory
+   * Takes a significant amount of time to train
+   * Pre-trained models not widely available
+
 
 ## Dependencies
-- Python (>= 3.6)
-- TensorFlow (>= 2.0)
+* Python (>= 3.6)
+* TensorFlow (>= 2.0)
 
 
 **<span style="color:red;">Note:</span>** If you are interested in using or contributing to this project, please contact for permission or further information.
