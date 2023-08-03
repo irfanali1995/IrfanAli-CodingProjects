@@ -8,3 +8,4 @@ A GUI Based Application, in which you can put coordinates for pick and drop and 
 ![Screenshot 2023-08-03 at 11 05 16](https://github.com/irfanali1995/Masters_Robotics-/assets/75564524/3e3b1854-5033-4938-8fda-16c5191a55d4)
 
 
+# Note: There are other contributors to Project as well , do not copy this project without consent
