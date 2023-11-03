@@ -10,10 +10,6 @@ This project is a Python script that retrieves current weather information based
 - Requests Library
 - API integration
 
-## Usage
-
-Include instructions on how to use your script or any relevant information for users or contributors.
-
 ## Acknowledgments
 
 Inspired By Techwithtim.
