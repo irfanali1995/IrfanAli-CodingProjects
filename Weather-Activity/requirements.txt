@@ -1,3 +1,0 @@
-FLask
-requests
-python-dotenv
