@@ -38,6 +38,5 @@ To run the code, follow these steps:
 
 ## Contact Information
 
- For any questions or concerns related to the code contact me.
-Email: irfan.ali1995@gmail.com
+ For any questions or concerns related to the code contact me. Email: irfan.ali1995@gmail.com
 
