@@ -53,8 +53,6 @@ To create a web app that provides users with activity suggestions based on real-
    - Backend fetches real-time weather data using the API
 3. **Activity Recommendations**
    - Algorithms process weather conditions and generate personalized activity suggestions
-4. **User Feedback**
-   - Users receive a list of recommended activities and can provide feedback for future improvements
 
 ## Challenges
 
