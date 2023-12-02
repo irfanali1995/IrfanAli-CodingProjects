@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="static/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Your+Font+Name" rel="stylesheet">
+</head>
+<body> 
+    <div class="heading">
+        <h1><b>Weather Activity App</b></h1>
+    </div>
+    <div  class="container">
+                <form action="/" method="post">
+                    <input type="text" id="cityName" name="cityName" placeholder="City" class="input-large;">
+                    <input type="text" id="countryName" name="countryName" placeholder="Country" class="input-large;">
+                    <input type="text" id="stateName" name="stateName" placeholder="State" class="hidden-input">
+                    <button>Find</button>
+                </form>
+                <br>
+          
+        <!-- Weather container on the left -->
+        <div>
+            <div class="weather-container">
+                <div class="weather-info">
+                {% if description and temperature %} 
+                    <h2><b>{{ name }} Weather</b></h2> 
+                    <p>Temperature: {{ temperature }} ℃</p>
+                    <p>Description: {{ description }}</p>
+                {% else %}
+                    <p>{{error}}</p>
+                {% endif %}
+            </div>
+                </div>
+            <div class="activities-container">
+                <div class="activities">
+                <ul>
+                    {% if recommended_activities %}
+                    <h2><b>Suggested Activites</b></h2> 
+                    {% endif %}
+                    {% for activity in recommended_activities %}
+                        <li>{{ activity }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+                 </div>
+        </div>
+        </div>
+        <footer class="container-fluid bg-transparent text-black text-center py-3 fixed-bottom">
+            <p>About Project: This web-app is a part of the CS5x final project, it provides activity suggestion based on weather description and temperature. Please note that the information presented here might not always be accurate.</p>
+        </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
