@@ -1,0 +1,62 @@
+.hidden-input {
+    display: none;
+}
+
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5); /* Set the background color to be transparent */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adjust the alpha value here for the box shadow transparency */
+    margin-top: 140px;
+}
+
+
+
+.heading {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+}
+
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+body {
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Roboto Slab', serif;
+      /* background-color: #f0f0f0; */
+      height: 100vh;
+      background-image: url('/static/background1.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      margin: 0; /* Remove default margin */
+      padding: 0;
+      overflow: hidden;
+  }
+
+  /* Building a Complete Weather App from Scratch with HTML, CSS, and JavaScript: A Step-by-Step Guide by Odumosu Matthew */
