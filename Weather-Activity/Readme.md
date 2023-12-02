@@ -1,7 +1,5 @@
 # Weather-Activity Web App - CS50x Final Project Presentation
 
-#### Video Demo: (https://www.youtube.com/watch?v=SGu5cV3z6x8)
-
 ## Introduction
 
 ### Weather-Activity Web App
